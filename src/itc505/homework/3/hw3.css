@@ -1,0 +1,33 @@
+body {
+    background-color: lightyellow;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+   font-family: 'Akronim', cursive;
+font-family: 'Almendra SC', serif;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'AR One Sans', sans-serif;
+font-family: 'Are You Serious', cursive;
+font-family: 'Atomic Age', cursive;
+font-family: 'Noto Serif NP Hmong', serif;
+font-family: 'Pixelify Sans', cursive;
+}
+
+h2 {
+    font-family: 'Akronim', cursive;
+	font-family: 'Almendra SC', serif;
+	font-family: 'Pixelify Sans', cursive;
+
+}
+
+p {
+    font-family: 'Akronim', cursive;
+	font-family: 'Almendra SC', serif; 
+        font-family: 'Pixelify Sans', cursive;
+}
