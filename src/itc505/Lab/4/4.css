@@ -31,15 +31,15 @@ article {
   margin-bottom: 30px;
 }
 
-
 h1 {
   font-family: 'Oswald', sans-serif;
-font-family: 'Young Serif', serif;
+  font-family: 'Young Serif', serif;
 }
 
 h2 {
- font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  color: skyblue; /* Text color set to sky blue */
 }
 
 /* Style the list of series */
@@ -53,15 +53,24 @@ li {
 }
 
 h3 {
-  color: #333; /* Subsection headings color (dark gray) */
+  color: purple; 
   font-size: 18px;
 }
 
 p {
   margin: 10px 0;
   color: #333; /* Text color for paragraphs (dark gray) */
-    font-family: 'Akronim', cursive;
-	font-family: 'Almendra SC', serif; 
-        font-family: 'Pixelify Sans', cursive;
+  font-family: 'Akronim', cursive;
+  font-family: 'Almendra SC', serif;
+  font-family: 'Pixelify Sans', cursive;
 }
-}
+
+section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border: 2px solid #0077b6; /* Blue border for the sections */
+        }
