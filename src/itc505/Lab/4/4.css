@@ -1,0 +1,67 @@
+/* Apply a background image to the entire page */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/Users/nandamuriraghuram/Documents/website/abraham-lincoln-7821549_1280.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #000; /* Text color (black) */
+}
+
+/* Style the header */
+header {
+  background-color: #fff; /* White background for the header */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header-title {
+  color: #000; /* Text color for the header title (black) */
+  margin: 0;
+}
+
+/* Style the main content area */
+main {
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+font-family: 'Young Serif', serif;
+}
+
+h2 {
+ font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+/* Style the list of series */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+}
+
+h3 {
+  color: #333; /* Subsection headings color (dark gray) */
+  font-size: 18px;
+}
+
+p {
+  margin: 10px 0;
+  color: #333; /* Text color for paragraphs (dark gray) */
+    font-family: 'Akronim', cursive;
+	font-family: 'Almendra SC', serif; 
+        font-family: 'Pixelify Sans', cursive;
+}
+}
