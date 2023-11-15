@@ -35,6 +35,22 @@ const storyData = {
 	choices: ["Game Over!!"],
         image: "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/a026cdee38f78fd9c062258d2d09ef29.png"
 	},
+"walk through light": {
+        text: "Clock is Ticking Make a choice!! [hurry up!!!] Make a wise choice",
+	choices: ["Beak the door","Break the Evil Statue"],
+	consequences: ["break the door", "break the evil statue"],
+        image: "https://img.freepik.com/premium-photo/man-stands-front-arch-with-word-it_906598-100.jpg"
+	},
+"break the door": {
+        text: "Oh god!! you are eternally trapped in the cave[you are not so wise!!]",
+	choices: ["Game Over!! You Lose"],
+        image: "https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/clch8nu8j05d8p6kaspenlcth_1/public"
+	},
+"break the evil statue": {
+        text: "You made the wise choice!! [you are safe now] You've freed the cave from the evil spell!!",
+	choices: ["You Win!!"],
+        image: "https://api.time.com/wp-content/uploads/2015/07/mattanderson5.jpg"
+	},
  "fight her": {
         text: "[Get Ready For the Fight!!] Choose your weapon Wisely.",
         choices: ["Mystery Sword","The Gun"],
