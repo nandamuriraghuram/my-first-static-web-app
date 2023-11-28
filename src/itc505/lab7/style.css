@@ -1,0 +1,54 @@
+/* Mad Lib Game Styles */
+
+body {
+  font-family: sans-serif;
+  background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTA0LWJnLTA0YV8yLmpwZw.jpg'); 
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+      form {
+          width: 500px;
+          height: 500px;
+          margin: 30px auto;
+          border: 1px solid #ccc;
+          padding: 20px;
+        }
+      
+        label {
+          display: block;
+          margin-bottom: 20px; /* Increase the margin from 5px to 10px */
+          font-weight: bold;
+        }
+        
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #100f0f;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#madlibOutput {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
